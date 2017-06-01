@@ -1,1 +1,1 @@
-include ':app', ':dandu'
+include ':app', ':dandu', ':myapp', ':ddlibrary'

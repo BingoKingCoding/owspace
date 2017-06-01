@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/dandu" />
+            <option value="$PROJECT_DIR$/ddlibrary" />
+            <option value="$PROJECT_DIR$/myapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
