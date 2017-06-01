@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RatioLayout">
+        <attr name="ratioWidthLayout" format="integer"/>
+        <attr name="ratioHeightLayout" format="integer"/>
+        <attr name="ratioType">
+            <enum name="byWidth" value="0"/>
+            <enum name="byHeight" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RatioChildrenRelativeLayout">
+        <attr name="ratioParentType">
+            <enum name="byWidth" value="0"/>
+            <enum name="byHeight" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RatioChildrenRelativeLayout_layout">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioAverageFrameLayout">
+        <attr name="spaceTopBottom" format="integer"/>
+        <attr name="ratioLayout" format="float"/>
+        <attr name="columnCount" format="integer"/>
+    </declare-styleable>
+
+</resources>
